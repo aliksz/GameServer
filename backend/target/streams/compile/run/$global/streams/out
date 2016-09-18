@@ -1,0 +1,143 @@
+[0m[[0mdebug[0m] [0mjavaOptions: List(-Dlog.service.output=/dev/stderr, -Dlog.access.output=/dev/stderr)[0m
+[0m[[0minfo[0m] [0mRunning core.GServerInstance [0m
+[0m[[0minfo[0m] [0m19:39:32,133 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy][0m
+[0m[[0minfo[0m] [0m19:39:32,134 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml][0m
+[0m[[0minfo[0m] [0m19:39:32,134 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/alex/GameServer/backend/target/scala-2.11/classes/logback.xml][0m
+[0m[[0minfo[0m] [0m19:39:32,428 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set[0m
+[0m[[0minfo[0m] [0m19:39:32,440 |-INFO in ch.qos.logback.core.joran.action.ShutdownHookAction - About to instantiate shutdown hook of type [ch.qos.logback.core.hook.DelayingShutdownHook][0m
+[0m[[0minfo[0m] [0m19:39:32,462 |-INFO in ch.qos.logback.classic.joran.action.LoggerContextListenerAction - Adding LoggerContextListener of type [ch.qos.logback.classic.jul.LevelChangePropagator] to the object stack[0m
+[0m[[0minfo[0m] [0m19:39:32,475 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@bef2d72 - Propagating DEBUG level on Logger[ROOT] onto the JUL framework[0m
+[0m[[0minfo[0m] [0m19:39:32,475 |-INFO in ch.qos.logback.classic.joran.action.LoggerContextListenerAction - Starting LoggerContextListener[0m
+[0m[[0minfo[0m] [0m19:39:32,475 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender][0m
+[0m[[0minfo[0m] [0m19:39:32,479 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SERVICE][0m
+[0m[[0minfo[0m] [0m19:39:32,536 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1773283386 - No compression will be used[0m
+[0m[[0minfo[0m] [0m19:39:32,538 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1773283386 - Will use the pattern /dev/stderr-%d{yyyy-MM-dd}.%i for the active file[0m
+[0m[[0minfo[0m] [0m19:39:32,543 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@22a637e7 - The date pattern is 'yyyy-MM-dd' from file name pattern '/dev/stderr-%d{yyyy-MM-dd}.%i'.[0m
+[0m[[0minfo[0m] [0m19:39:32,543 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@22a637e7 - Roll-over at midnight.[0m
+[0m[[0minfo[0m] [0m19:39:32,549 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@22a637e7 - Setting initial period to Sat Sep 10 19:39:30 MSK 2016[0m
+[0m[[0minfo[0m] [0m19:39:32,559 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property[0m
+[0m[[0minfo[0m] [0m19:39:32,576 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[SERVICE] - Active log file name: /dev/stderr[0m
+[0m[[0minfo[0m] [0m19:39:32,576 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[SERVICE] - File property is set to [/dev/stderr][0m
+[0m[[0minfo[0m] [0m19:39:32,577 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender][0m
+[0m[[0minfo[0m] [0m19:39:32,577 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ACCESS][0m
+[0m[[0minfo[0m] [0m19:39:32,579 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1877453512 - No compression will be used[0m
+[0m[[0minfo[0m] [0m19:39:32,579 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1877453512 - Will use the pattern /dev/stderr-%d{yyyy-MM-dd}.%i for the active file[0m
+[0m[[0minfo[0m] [0m19:39:32,580 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1d119efb - The date pattern is 'yyyy-MM-dd' from file name pattern '/dev/stderr-%d{yyyy-MM-dd}.%i'.[0m
+[0m[[0minfo[0m] [0m19:39:32,580 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1d119efb - Roll-over at midnight.[0m
+[0m[[0minfo[0m] [0m19:39:32,581 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1d119efb - Setting initial period to Sat Sep 10 19:39:30 MSK 2016[0m
+[0m[[0minfo[0m] [0m19:39:32,585 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property[0m
+[0m[[0minfo[0m] [0m19:39:32,586 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS] - 'FileNamePattern' option has the same value "/dev/stderr-%d{yyyy-MM-dd}.%i" as that given for appender [SERVICE] defined earlier.[0m
+[0m[[0minfo[0m] [0m19:39:32,586 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.[0m
+[0m[[0minfo[0m] [0m19:39:32,586 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision[0m
+[0m[[0minfo[0m] [0m19:39:32,587 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender][0m
+[0m[[0minfo[0m] [0m19:39:32,589 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNC-SERVICE][0m
+[0m[[0minfo[0m] [0m19:39:32,590 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SERVICE] to ch.qos.logback.classic.AsyncAppender[ASYNC-SERVICE][0m
+[0m[[0minfo[0m] [0m19:39:32,590 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-SERVICE] - Attaching appender named [SERVICE] to AsyncAppender.[0m
+[0m[[0minfo[0m] [0m19:39:32,590 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-SERVICE] - Setting discardingThreshold to 204[0m
+[0m[[0minfo[0m] [0m19:39:32,591 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender][0m
+[0m[[0minfo[0m] [0m19:39:32,591 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNC-ACCESS][0m
+[0m[[0minfo[0m] [0m19:39:32,592 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ACCESS] to ch.qos.logback.classic.AsyncAppender[ASYNC-ACCESS][0m
+[0m[[0minfo[0m] [0m19:39:32,592 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-ACCESS] - Attaching appender named [ACCESS] to AsyncAppender.[0m
+[0m[[0minfo[0m] [0m19:39:32,592 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-ACCESS] - Setting discardingThreshold to 204[0m
+[0m[[0minfo[0m] [0m19:39:32,592 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.twitter] to INFO[0m
+[0m[[0minfo[0m] [0m19:39:32,592 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@bef2d72 - Propagating INFO level on Logger[com.twitter] onto the JUL framework[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.twitter.finatra] to DEBUG[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@bef2d72 - Propagating DEBUG level on Logger[com.twitter.finatra] onto the JUL framework[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.example] to DEBUG[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@bef2d72 - Propagating DEBUG level on Logger[com.example] onto the JUL framework[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@bef2d72 - Propagating INFO level on Logger[ROOT] onto the JUL framework[0m
+[0m[[0minfo[0m] [0m19:39:32,593 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNC-SERVICE] to Logger[ROOT][0m
+[0m[[0minfo[0m] [0m19:39:32,594 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.twitter.finatra.http.filters.AccessLoggingFilter] to INFO[0m
+[0m[[0minfo[0m] [0m19:39:32,594 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@bef2d72 - Propagating INFO level on Logger[com.twitter.finatra.http.filters.AccessLoggingFilter] onto the JUL framework[0m
+[0m[[0minfo[0m] [0m19:39:32,594 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.twitter.finatra.http.filters.AccessLoggingFilter] to false[0m
+[0m[[0minfo[0m] [0m19:39:32,594 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNC-ACCESS] to Logger[com.twitter.finatra.http.filters.AccessLoggingFilter][0m
+[0m[[0minfo[0m] [0m19:39:32,594 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.[0m
+[0m[[0minfo[0m] [0m19:39:32,595 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@659a969b - Registering current configuration as safe fallback point[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[31merror[0m] [0mSep 10, 2016 7:39:33 PM com.twitter.finagle.http.HttpMuxer$$anonfun$4 apply[0m
+[0m[[31merror[0m] [0mINFO: HttpMuxer[/admin/metrics.json] = com.twitter.finagle.stats.MetricsExporter(<function1>)[0m
+[0m[[31merror[0m] [0mSep 10, 2016 7:39:33 PM com.twitter.finagle.http.HttpMuxer$$anonfun$4 apply[0m
+[0m[[31merror[0m] [0mINFO: HttpMuxer[/admin/per_host_metrics.json] = com.twitter.finagle.stats.HostMetricsExporter(<function1>)[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:33,484 INF                  GServerInstance$          Process started[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.614 THREAD1:  => com.twitter.server.handler.AdminRedirectHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.615 THREAD1: /admin => com.twitter.server.handler.SummaryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.616 THREAD1: /admin/server_info => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.622 THREAD1: /admin/contention => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.622 THREAD1: /admin/lint.json => com.twitter.server.handler.LintHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.622 THREAD1: /admin/threads => com.twitter.server.handler.ThreadsHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.622 THREAD1: /admin/threads.json => com.twitter.server.handler.ThreadsHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.622 THREAD1: /admin/announcer => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.622 THREAD1: /admin/lint => com.twitter.server.handler.LintHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.623 THREAD1: /admin/dtab => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.623 THREAD1: /admin/pprof/heap => com.twitter.server.handler.HeapResourceHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.623 THREAD1: /admin/pprof/contention => com.twitter.server.handler.ProfileResourceHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.623 THREAD1: /admin/pprof/profile => com.twitter.server.handler.ProfileResourceHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.624 THREAD1: /admin/ping => com.twitter.server.handler.ReplyHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.624 THREAD1: /admin/shutdown => com.twitter.server.handler.ShutdownHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.625 THREAD1: /admin/events => com.twitter.server.handler.EventsHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.624 THREAD1: /admin/tracing => com.twitter.server.handler.TracingHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.625 THREAD1: /admin/events/record/ => com.twitter.server.handler.EventRecordingHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.625 THREAD1: /admin/metrics => com.twitter.server.handler.MetricQueryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.625 THREAD1: /admin/logging => com.twitter.server.handler.LoggingHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.626 THREAD1: /admin/servers/ => com.twitter.server.handler.ServerRegistryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.625 THREAD1: /admin/clients/ => com.twitter.server.handler.ClientRegistryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.626 THREAD1: /admin/registry.json => com.twitter.server.handler.RegistryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.626 THREAD1: /admin/files/ => com.twitter.server.handler.ResourceHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.627 THREAD1: /admin/toggles/ => com.twitter.server.handler.ToggleHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.626 THREAD1: /admin/toggles => com.twitter.server.handler.ToggleHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.627 THREAD1: /admin/histograms => com.twitter.server.handler.HistogramQueryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.627 THREAD1: /favicon.ico => com.twitter.server.handler.ResourceHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.631 THREAD1: /admin/histograms.json => com.twitter.server.handler.HistogramQueryHandler[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.637 THREAD1: Serving admin http on 0.0.0.0/0.0.0.0:9990[0m
+[0m[[31merror[0m] [0mI 0910 16:39:33.688 THREAD1: Finagle version 6.37.0 (rev=aa4f855a8bea18429c2ad99f6184bcd4d4645227) built at 20160825-200513[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,716 INF                  GServerInstance$          Resolving Finagle clients before warmup[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,720 INF                  GServerInstance$          Done resolving clients: [].[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,722 INF                  FinagleBuildRevision$     Resolved Finagle build revision: (rev=aa4f855a8bea18429c2ad99f6184bcd4d4645227)[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,846 DEB                  MessageBodyModule$        Configuring MessageBodyManager[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,869 INF                  GServerInstance$          Warming up.[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,989 INF                  HttpRouter                Adding routes[0m
+[0m[[31merror[0m] [0mGET     /ping[0m
+[0m[[31merror[0m] [0mPOST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,996 INF                  GServerInstance$           => com.twitter.server.handler.AdminRedirectHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,996 INF                  GServerInstance$          /admin => com.twitter.server.handler.SummaryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/server_info => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/contention => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/lint => com.twitter.server.handler.LintHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/lint.json => com.twitter.server.handler.LintHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/threads => com.twitter.server.handler.ThreadsHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/threads.json => com.twitter.server.handler.ThreadsHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/announcer => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/dtab => com.twitter.finagle.Filter$$anon$1[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,997 INF                  GServerInstance$          /admin/pprof/heap => com.twitter.server.handler.HeapResourceHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/pprof/profile => com.twitter.server.handler.ProfileResourceHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/pprof/contention => com.twitter.server.handler.ProfileResourceHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/ping => com.twitter.server.handler.ReplyHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/shutdown => com.twitter.server.handler.ShutdownHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/tracing => com.twitter.server.handler.TracingHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/events => com.twitter.server.handler.EventsHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/events/record/ => com.twitter.server.handler.EventRecordingHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/logging => com.twitter.server.handler.LoggingHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,998 INF                  GServerInstance$          /admin/metrics => com.twitter.server.handler.MetricQueryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /admin/clients/ => com.twitter.server.handler.ClientRegistryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /admin/servers/ => com.twitter.server.handler.ServerRegistryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /admin/files/ => com.twitter.server.handler.ResourceHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /admin/registry.json => com.twitter.server.handler.RegistryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /admin/toggles => com.twitter.server.handler.ToggleHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /admin/toggles/ => com.twitter.server.handler.ToggleHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:34,999 INF                  GServerInstance$          /favicon.ico => com.twitter.server.handler.ResourceHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:35,000 INF                  GServerInstance$          /admin/histograms => com.twitter.server.handler.HistogramQueryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:35,000 INF                  GServerInstance$          /admin/histograms.json => com.twitter.server.handler.HistogramQueryHandler[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:35,058 INF                  GServerInstance$          http server started on port: 8080[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:35,060 INF                  GServerInstance$          Enabling health endpoint on port 9990[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:35,064 INF                  GServerInstance$          core.GServerInstance started.[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:35,075 INF                  GServerInstance$          Startup complete, server ready.[0m
+[0m[[31merror[0m] [0m2016-09-10 19:39:50,283 DEB                  RoutingService            Request("GET /login?username=alex&password=qwert", from /127.0.0.1:47882) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:21:43,594 DEB                  RoutingService            Request("GET /login", from /127.0.0.1:48260) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:22:11,619 DEB                  RoutingService            Request("GET /login", from /127.0.0.1:48260) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:22:28,693 DEB                  RoutingService            Request("GET /login", from /127.0.0.1:48260) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:24:31,577 DEB                  RoutingService            Request("GET /login", from /127.0.0.1:48260) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:35:14,232 DEB                  RoutingService            Request("GET /login?username=alex&password=qwert", from /127.0.0.1:48696) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:35:18,242 DEB                  RoutingService            Request("GET /login?username=alex&password=qwert", from /127.0.0.1:48696) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:47:38,937 DEB                  RoutingService            Request("GET /login?username=alex&password=qwert", from /127.0.0.1:48926) not found in registered routes: GET     /ping, POST    /login[0m
+[0m[[31merror[0m] [0m2016-09-10 20:47:41,552 DEB                  RoutingService            Request("GET /login?username=alex&password=qwert", from /127.0.0.1:48926) not found in registered routes: GET     /ping, POST    /login[0m

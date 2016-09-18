@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.aliksz"
+		module="game-server$sources_2.11"
+		revision="1.0.0-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160918210954"/>
+	<dependencies>
+		<module organisation="io.github.finagle" name="finagle-postgres_2.11">
+			<revision name="0.2.0" status="release" pubdate="20160917212144" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/finagle/finagle-oauth2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="46">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/home/alex/.ivy2/cache/io.github.finagle/finagle-postgres_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/alex/.ivy2/local/io.github.finagle/finagle-postgres_2.11/0.2.0/ivys/ivy.xml"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="finagle-postgres_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32033" time="0" location="/home/alex/.ivy2/local/io.github.finagle/finagle-postgres_2.11/0.2.0/srcs/finagle-postgres_2.11-sources.jar">
+						<origin-location is-local="true" location="/home/alex/.ivy2/local/io.github.finagle/finagle-postgres_2.11/0.2.0/srcs/finagle-postgres_2.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.hazelcast" name="hazelcast-scala_2.11">
+			<revision name="3.6.0" status="release" pubdate="20160805082340" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="3522" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast-scala_2.11/ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/hazelcast/hazelcast-scala_2.11/3.6.0/hazelcast-scala_2.11-3.6.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hazelcast-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="78887" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast-scala_2.11/srcs/hazelcast-scala_2.11-3.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/hazelcast/hazelcast-scala_2.11/3.6.0/hazelcast-scala_2.11-3.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.transaction" name="transaction-api">
+			<revision name="1.1" status="release" pubdate="20070105093536" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="91">
+				<metadata-artifact status="no" details="" size="2332" time="0" location="/home/alex/.ivy2/cache/javax.transaction/transaction-api/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/transaction-api/1.1/transaction-api-1.1.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="transaction-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="/home/alex/.ivy2/cache/javax.transaction/transaction-api/srcs/transaction-api-1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/transaction-api/1.1/transaction-api-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-http_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063414" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4478" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-http_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra-http_2.11/2.3.0/finatra-http_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-http_2.11" type="jar" ext="jar" extra-classifier="tests" status="no" details="" size="48862" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-http_2.11/jars/finatra-http_2.11-2.3.0-tests.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra-http_2.11/2.3.0/finatra-http_2.11-2.3.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.3.1" status="release" pubdate="20140206210400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-fileupload/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="34">
+				<metadata-artifact status="no" details="" size="10425" time="0" location="/home/alex/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="87367" time="0" location="/home/alex/.ivy2/cache/commons-fileupload/commons-fileupload/srcs/commons-fileupload-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.spullara.mustache.java" name="compiler">
+			<revision name="0.8.18" status="release" pubdate="20150826100843" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spullara/mustache.java" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="17">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3604" time="0" location="/home/alex/.ivy2/cache/com.github.spullara.mustache.java/compiler/ivy-0.8.18.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.8.18" rev-constraint-default="0.8.18" rev-constraint-dynamic="0.8.18" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56054" time="0" location="/home/alex/.ivy2/cache/com.github.spullara.mustache.java/compiler/srcs/compiler-0.8.18-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-slf4j_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="79">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4016" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-slf4j_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra-slf4j_2.11/2.3.0/finatra-slf4j_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2650" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-slf4j_2.11/srcs/finatra-slf4j_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra-slf4j_2.11/2.3.0/finatra-slf4j_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="log4j-over-slf4j">
+			<revision name="1.7.21" status="release" pubdate="20160404221614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="38">
+				<license name="Apache Software Licenses" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5284" time="0" location="/home/alex/.ivy2/cache/org.slf4j/log4j-over-slf4j/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="log4j-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30875" time="0" location="/home/alex/.ivy2/cache/org.slf4j/log4j-over-slf4j/srcs/log4j-over-slf4j-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.21" status="release" pubdate="20160404222441" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="61">
+				<metadata-artifact status="no" details="" size="5170" time="0" location="/home/alex/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4872" time="0" location="/home/alex/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.21" status="release" pubdate="20160404222442" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="5185" time="0" location="/home/alex/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23213" time="0" location="/home/alex/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-request-scope_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063304" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="73">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3730" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-request-scope_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject-request-scope_2.11/2.3.0/inject-request-scope_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-request-scope_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4379" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-request-scope_2.11/srcs/inject-request-scope_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject-request-scope_2.11/2.3.0/inject-request-scope_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-jackson_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063352" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="44">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4507" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-jackson_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra-jackson_2.11/2.3.0/finatra-jackson_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-jackson_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="60450" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-jackson_2.11/srcs/finatra-jackson_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra-jackson_2.11/2.3.0/finatra-jackson_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.finatra" name="finatra-scalap-compiler-deps_2.11">
+			<revision name="2.0.0" status="release" pubdate="20150902034843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="25">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/alex/.ivy2/cache/com.twitter.finatra/finatra-scalap-compiler-deps_2.11/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra/finatra-scalap-compiler-deps_2.11/2.0.0/finatra-scalap-compiler-deps_2.11-2.0.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-scalap-compiler-deps_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11321" time="0" location="/home/alex/.ivy2/cache/com.twitter.finatra/finatra-scalap-compiler-deps_2.11/srcs/finatra-scalap-compiler-deps_2.11-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-scalap-compiler-deps_2.11/2.0.0/finatra-scalap-compiler-deps_2.11-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.11.8" status="release" pubdate="20160309080022" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="56">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/home/alex/.ivy2/cache/org.scala-lang/scalap/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.8/scalap-2.11.8.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37159" time="0" location="/home/alex/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.8/scalap-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-utils_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063346" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="83">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4818" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-utils_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra-utils_2.11/2.3.0/finatra-utils_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-utils_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16317" time="0" location="/home/alex/.ivy2/cache/com.twitter/finatra-utils_2.11/srcs/finatra-utils_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra-utils_2.11/2.3.0/finatra-utils_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-server_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063407" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="31">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4033" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-server_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject-server_2.11/2.3.0/inject-server_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-server_2.11" type="jar" ext="jar" extra-classifier="tests" status="no" details="" size="63874" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-server_2.11/jars/inject-server_2.11-2.3.0-tests.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject-server_2.11/2.3.0/inject-server_2.11-2.3.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="twitter-server_2.11">
+			<revision name="1.22.0" status="release" pubdate="20160826062808" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/twitter-server" extra-info.apiURL="https://twitter.github.io/twitter-server/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="48">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="13207" time="0" location="/home/alex/.ivy2/cache/com.twitter/twitter-server_2.11/ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/twitter-server_2.11/1.22.0/twitter-server_2.11-1.22.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/twitter-server/docs/"/>
+				<artifacts>
+					<artifact name="twitter-server_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="281044" time="0" location="/home/alex/.ivy2/cache/com.twitter/twitter-server_2.11/srcs/twitter-server_2.11-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/twitter-server_2.11/1.22.0/twitter-server_2.11-1.22.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.5" status="release" pubdate="20150725060253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="55">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/alex/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109244" time="0" location="/home/alex/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-zipkin-core_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826060731" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="11822" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-zipkin-core_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-zipkin-core_2.11/6.37.0/finagle-zipkin-core_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-zipkin-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11265" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-zipkin-core_2.11/srcs/finagle-zipkin-core_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-zipkin-core_2.11/6.37.0/finagle-zipkin-core_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-toggle_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826060850" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9998" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-toggle_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-toggle_2.11/6.37.0/finagle-toggle_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-toggle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16099" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-toggle_2.11/srcs/finagle-toggle_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-toggle_2.11/6.37.0/finagle-toggle_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-stats_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826061100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="12258" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-stats_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-stats_2.11/6.37.0/finagle-stats_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-stats_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19886" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-stats_2.11/srcs/finagle-stats_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-stats_2.11/6.37.0/finagle-stats_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.11">
+			<revision name="2.6.5" status="release" pubdate="20160301214447" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4217" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52587" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/srcs/jackson-module-scala_2.11-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-joda">
+			<revision name="2.6.5" status="release" pubdate="20160119163528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJoda" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="75">
+				<metadata-artifact status="no" details="" size="7457" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.6.5/jackson-datatype-joda-2.6.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-datatype-joda" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37453" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/srcs/jackson-datatype-joda-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.6.5/jackson-datatype-joda-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.6.5" status="release" pubdate="20160123002536" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="86">
+				<metadata-artifact status="no" details="" size="7521" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-paranamer/2.6.5/jackson-module-paranamer-2.6.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6567" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/srcs/jackson-module-paranamer-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-paranamer/2.6.5/jackson-module-paranamer-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.6" status="release" pubdate="20131009075654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="77">
+				<metadata-artifact status="no" details="" size="4124" time="0" location="/home/alex/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26517" time="0" location="/home/alex/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.6.5" status="release" pubdate="20160119103426" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="59">
+				<metadata-artifact status="no" details="" size="8821" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="858568" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-events_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045624" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3640" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-events_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-events_2.11/6.36.0/util-events_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-events_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6026" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-events_2.11/srcs/util-events_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-events_2.11/6.36.0/util-events_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="metrics">
+			<revision name="0.0.37" status="release" pubdate="20150723045704" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="36">
+				<metadata-artifact status="no" details="" size="3665" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/metrics/ivy-0.0.37.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/metrics/0.0.37/metrics-0.0.37.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.37" rev-constraint-default="0.0.37" rev-constraint-dynamic="0.0.37" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="metrics" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25400" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/metrics/srcs/metrics-0.0.37-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/metrics/0.0.37/metrics-0.0.37-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="jsr166e">
+			<revision name="1.0.0" status="release" pubdate="20130420020245" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="62">
+				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="/home/alex/.ivy2/cache/com.twitter/jsr166e/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7587" time="0" location="/home/alex/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826061041" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="60">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8484" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-http_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-http_2.11/6.37.0/finagle-http_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86182" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-http_2.11/srcs/finagle-http_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-http_2.11/6.37.0/finagle-http_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-collection_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045602" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="76">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3920" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-collection_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-collection_2.11/6.36.0/util-collection_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-collection_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8127" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-collection_2.11/srcs/util-collection_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-collection_2.11/6.36.0/util-collection_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-utils_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="54">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4017" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-utils_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject-utils_2.11/2.3.0/inject-utils_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-utils_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5605" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-utils_2.11/srcs/inject-utils_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject-utils_2.11/2.3.0/inject-utils_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-mux_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826061128" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8941" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-mux_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-mux_2.11/6.37.0/finagle-mux_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-mux_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57886" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-mux_2.11/srcs/finagle-mux_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-mux_2.11/6.37.0/finagle-mux_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stats-util">
+			<revision name="0.0.58" status="release" pubdate="20150723043804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="12">
+				<metadata-artifact status="no" details="" size="3072" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stats-util/ivy-0.0.58.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stats-util/0.0.58/stats-util-0.0.58.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.58" rev-constraint-default="0.0.58" rev-constraint-dynamic="0.0.58" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="stats-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24940" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stats-util/srcs/stats-util-0.0.58-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats-util/0.0.58/stats-util-0.0.58-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util">
+			<revision name="0.0.120" status="release" pubdate="20150723044705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="3974" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util/ivy-0.0.120.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util/0.0.120/util-0.0.120.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.120" rev-constraint-default="0.0.120" rev-constraint-dynamic="0.0.120" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41430" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util/srcs/util-0.0.120-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util/0.0.120/util-0.0.120-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stats">
+			<revision name="0.0.114" status="release" pubdate="20150723043805" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="88">
+				<metadata-artifact status="no" details="" size="3968" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stats/ivy-0.0.114.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stats/0.0.114/stats-0.0.114.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.114" rev-constraint-default="0.0.114" rev-constraint-dynamic="0.0.114" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="stats" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22920" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stats/srcs/stats-0.0.114-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats/0.0.114/stats-0.0.114-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util-sampler">
+			<revision name="0.0.77" status="release" pubdate="20150723041705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="70">
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util-sampler/ivy-0.0.77.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util-sampler/0.0.77/util-sampler-0.0.77.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.77" rev-constraint-default="0.0.77" rev-constraint-dynamic="0.0.77" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="util-sampler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2592" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util-sampler/srcs/util-sampler-0.0.77-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-sampler/0.0.77/util-sampler-0.0.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="application-action">
+			<revision name="0.0.89" status="release" pubdate="20150723043004" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="69">
+				<metadata-artifact status="no" details="" size="3088" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/application-action/ivy-0.0.89.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/application-action/0.0.89/application-action-0.0.89.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.89" rev-constraint-default="0.0.89" rev-constraint-dynamic="0.0.89" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="application-action" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7447" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/application-action/srcs/application-action-0.0.89-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/application-action/0.0.89/application-action-0.0.89-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stat-registry">
+			<revision name="0.0.57" status="release" pubdate="20150723023804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="2507" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stat-registry/ivy-0.0.57.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stat-registry/0.0.57/stat-registry-0.0.57.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.57" rev-constraint-default="0.0.57" rev-constraint-dynamic="0.0.57" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="stat-registry" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3231" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stat-registry/srcs/stat-registry-0.0.57-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stat-registry/0.0.57/stat-registry-0.0.57-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stat">
+			<revision name="0.0.72" status="release" pubdate="20150723023105" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="2314" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stat/ivy-0.0.72.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stat/0.0.72/stat-0.0.72.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.72" rev-constraint-default="0.0.72" rev-constraint-dynamic="0.0.72" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="stat" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2377" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/stat/srcs/stat-0.0.72-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stat/0.0.72/stat-0.0.72-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="jdk-logging">
+			<revision name="0.0.79" status="release" pubdate="20150723040804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="78">
+				<metadata-artifact status="no" details="" size="2651" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/jdk-logging/ivy-0.0.79.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/jdk-logging/0.0.79/jdk-logging-0.0.79.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.79" rev-constraint-default="0.0.79" rev-constraint-dynamic="0.0.79" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jdk-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4149" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/jdk-logging/srcs/jdk-logging-0.0.79-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/jdk-logging/0.0.79/jdk-logging-0.0.79-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util-executor-service-shutdown">
+			<revision name="0.0.66" status="release" pubdate="20150723043004" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="90">
+				<metadata-artifact status="no" details="" size="3119" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util-executor-service-shutdown/ivy-0.0.66.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util-executor-service-shutdown/0.0.66/util-executor-service-shutdown-0.0.66.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.66" rev-constraint-default="0.0.66" rev-constraint-dynamic="0.0.66" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="util-executor-service-shutdown" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3278" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util-executor-service-shutdown/srcs/util-executor-service-shutdown-0.0.66-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-executor-service-shutdown/0.0.66/util-executor-service-shutdown-0.0.66-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="base">
+			<revision name="0.0.114" status="release" pubdate="20150723041404" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="92">
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/base/ivy-0.0.114.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/base/0.0.114/base-0.0.114.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.114" rev-constraint-default="0.0.114" rev-constraint-dynamic="0.0.114" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="base" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21934" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/base/srcs/base-0.0.114-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/base/0.0.114/base-0.0.114-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util-system-mocks">
+			<revision name="0.0.103" status="release" pubdate="20150723041204" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="99">
+				<metadata-artifact status="no" details="" size="2664" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util-system-mocks/ivy-0.0.103.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util-system-mocks/0.0.103/util-system-mocks-0.0.103.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.103" rev-constraint-default="0.0.103" rev-constraint-dynamic="0.0.103" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="util-system-mocks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4367" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/util-system-mocks/srcs/util-system-mocks-0.0.103-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-system-mocks/0.0.103/util-system-mocks-0.0.103-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="quantity">
+			<revision name="0.0.98" status="release" pubdate="20150723041205" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="85">
+				<metadata-artifact status="no" details="" size="2936" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/quantity/ivy-0.0.98.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/quantity/0.0.98/quantity-0.0.98.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.98" rev-constraint-default="0.0.98" rev-constraint-dynamic="0.0.98" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="quantity" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6345" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/quantity/srcs/quantity-0.0.98-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/quantity/0.0.98/quantity-0.0.98-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="collections">
+			<revision name="0.0.109" status="release" pubdate="20150723042405" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="2793" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/collections/ivy-0.0.109.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/collections/0.0.109/collections-0.0.109.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.0.109" rev-constraint-default="0.0.109" rev-constraint-dynamic="0.0.109" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8596" time="0" location="/home/alex/.ivy2/cache/com.twitter.common/collections/srcs/collections-0.0.109-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/collections/0.0.109/collections-0.0.109-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-netty4_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826060749" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="10309" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-netty4_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-netty4_2.11/6.37.0/finagle-netty4_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-netty4_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32511" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-netty4_2.11/srcs/finagle-netty4_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-netty4_2.11/6.37.0/finagle-netty4_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler-proxy">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727144120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="8">
+				<metadata-artifact status="no" details="" size="16678" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-handler-proxy/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler-proxy/4.1.4.Final/netty-handler-proxy-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-handler-proxy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14121" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-handler-proxy/srcs/netty-handler-proxy-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-handler-proxy/4.1.4.Final/netty-handler-proxy-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-socks">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143929" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="13">
+				<metadata-artifact status="no" details="" size="16248" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-codec-socks/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec-socks/4.1.4.Final/netty-codec-socks-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-socks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86790" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-codec-socks/srcs/netty-codec-socks-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-codec-socks/4.1.4.Final/netty-codec-socks-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143736" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="94">
+				<metadata-artifact status="no" details="" size="16488" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-codec-http/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec-http/4.1.4.Final/netty-codec-http-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="419171" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-codec-http/4.1.4.Final/netty-codec-http-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="89">
+				<metadata-artifact status="no" details="" size="17238" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-handler/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler/4.1.4.Final/netty-handler-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="212010" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-handler/4.1.4.Final/netty-handler-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143611" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="98">
+				<metadata-artifact status="no" details="" size="17567" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-codec/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec/4.1.4.Final/netty-codec-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="252041" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-codec/4.1.4.Final/netty-codec-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143541" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="45">
+				<metadata-artifact status="no" details="" size="16392" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-transport/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport/4.1.4.Final/netty-transport-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="282729" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-transport/4.1.4.Final/netty-transport-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143434" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="74">
+				<metadata-artifact status="no" details="" size="16243" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-resolver/4.1.4.Final/netty-resolver-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20299" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-resolver/srcs/netty-resolver-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-resolver/4.1.4.Final/netty-resolver-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="68">
+				<metadata-artifact status="no" details="" size="16239" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.1.4.Final/netty-buffer-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="156911" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-buffer/4.1.4.Final/netty-buffer-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.4.Final" status="release" pubdate="20160727143312" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="58">
+				<metadata-artifact status="no" details="" size="18780" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-common/ivy-4.1.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.1.4.Final/netty-common-4.1.4.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.1.4.Final" rev-constraint-default="4.1.4.Final" rev-constraint-dynamic="4.1.4.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="399530" time="0" location="/home/alex/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.1.4.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-common/4.1.4.Final/netty-common-4.1.4.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.7" status="release" pubdate="20160330001826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="37">
+				<metadata-artifact status="no" details="" size="10072" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226208" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.7" status="release" pubdate="20160329235153" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="30">
+				<metadata-artifact status="no" details="" size="7796" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="396578" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.21" status="release" pubdate="20160404220802" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="5109" time="0" location="/home/alex/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55663" time="0" location="/home/alex/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-modules_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063314" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="33">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3736" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-modules_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject-modules_2.11/2.3.0/inject-modules_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-modules_2.11" type="jar" ext="jar" extra-classifier="tests" status="no" details="" size="3114" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-modules_2.11/jars/inject-modules_2.11-2.3.0-tests.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject-modules_2.11/2.3.0/inject-modules_2.11-2.3.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-app_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063248" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="50">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3575" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-app_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject-app_2.11/2.3.0/inject-app_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-app_2.11" type="jar" ext="jar" extra-classifier="tests" status="no" details="" size="19766" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-app_2.11/jars/inject-app_2.11-2.3.0-tests.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject-app_2.11/2.3.0/inject-app_2.11-2.3.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-core_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160826063251" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="87">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5342" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-core_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject-core_2.11/2.3.0/inject-core_2.11-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-core_2.11" type="jar" ext="jar" extra-classifier="tests" status="no" details="" size="57409" time="0" location="/home/alex/.ivy2/cache/com.twitter/inject-core_2.11/jars/inject-core_2.11-2.3.0-tests.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject-core_2.11/2.3.0/inject-core_2.11-2.3.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clapper" name="grizzled-slf4j_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140427182710" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/bmc/grizzled-slf4j/#readme" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="47">
+				<license name="BSD" url="http://software.clapper.org/grizzled-slf4j/license.html"/>
+				<metadata-artifact status="no" details="" size="2982" time="0" location="/home/alex/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.11/1.0.2/grizzled-slf4j_2.11-1.0.2.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="grizzled-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2881" time="0" location="/home/alex/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/srcs/grizzled-slf4j_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.11/1.0.2/grizzled-slf4j_2.11-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.codingwell" name="scala-guice_2.11">
+			<revision name="4.0.0" status="release" pubdate="20150526045900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/codingwell/scala-guice" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="82">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3393" time="0" location="/home/alex/.ivy2/cache/net.codingwell/scala-guice_2.11/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/codingwell/scala-guice_2.11/4.0.0/scala-guice_2.11-4.0.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-guice_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18201" time="0" location="/home/alex/.ivy2/cache/net.codingwell/scala-guice_2.11/srcs/scala-guice_2.11-4.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/codingwell/scala-guice_2.11/4.0.0/scala-guice_2.11-4.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nscala-time" name="nscala-time_2.11">
+			<revision name="1.6.0" status="release" pubdate="20141120072100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/nscala-time/nscala-time" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="84">
+				<license name="Apache" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2944" time="0" location="/home/alex/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/nscala-time/nscala-time_2.11/1.6.0/nscala-time_2.11-1.6.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="nscala-time_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39138" time="0" location="/home/alex/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/srcs/nscala-time_2.11-1.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/nscala-time/nscala-time_2.11/1.6.0/nscala-time_2.11-1.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.5" status="release" pubdate="20141003105614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="51">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6459" time="0" location="/home/alex/.ivy2/cache/joda-time/joda-time/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.5/joda-time-2.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="749025" time="0" location="/home/alex/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20131006213714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3246" time="0" location="/home/alex/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/home/alex/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613022206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="66">
+				<metadata-artifact status="no" details="" size="8463" time="0" location="/home/alex/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/home/alex/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-multibindings">
+			<revision name="4.0" status="release" pubdate="20150428233500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="18">
+				<metadata-artifact status="no" details="" size="4982" time="0" location="/home/alex/.ivy2/cache/com.google.inject.extensions/guice-multibindings/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guice-multibindings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43824" time="0" location="/home/alex/.ivy2/cache/com.google.inject.extensions/guice-multibindings/srcs/guice-multibindings-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
+			<revision name="4.0" status="release" pubdate="20150428233500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="39">
+				<metadata-artifact status="no" details="" size="4984" time="0" location="/home/alex/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guice-assistedinject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33987" time="0" location="/home/alex/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/srcs/guice-assistedinject-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.6.5" status="release" pubdate="20160119092950" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="52">
+				<metadata-artifact status="no" details="" size="6380" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50255" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-thrift_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826061049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8429" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-thrift_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-thrift_2.11/6.37.0/finagle-thrift_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-thrift_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="126721" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-thrift_2.11/srcs/finagle-thrift_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-thrift_2.11/6.37.0/finagle-thrift_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="scrooge-core_2.11">
+			<revision name="4.9.0" status="release" pubdate="20160826061905" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/scrooge" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3508" time="0" location="/home/alex/.ivy2/cache/com.twitter/scrooge-core_2.11/ivy-4.9.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/scrooge-core_2.11/4.9.0/scrooge-core_2.11-4.9.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.9.0" rev-constraint-default="4.9.0" rev-constraint-dynamic="4.9.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scrooge-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13281" time="0" location="/home/alex/.ivy2/cache/com.twitter/scrooge-core_2.11/srcs/scrooge-core_2.11-4.9.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/scrooge-core_2.11/4.9.0/scrooge-core_2.11-4.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117012147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="6522" time="0" location="/home/alex/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/home/alex/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-core_2.11">
+			<revision name="6.37.0" status="release" pubdate="20160826061028" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, compile(*), runtime, runtime(*), master(compile), master" position="97">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="11656" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-core_2.11/ivy-6.37.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-core_2.11/6.37.0/finagle-core_2.11-6.37.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.37.0" rev-constraint-default="6.37.0" rev-constraint-dynamic="6.37.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="355789" time="0" location="/home/alex/.ivy2/cache/com.twitter/finagle-core_2.11/srcs/finagle-core_2.11-6.37.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-core_2.11/6.37.0/finagle-core_2.11-6.37.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.1.Final" status="release" pubdate="20150323215400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7197" time="0" location="/home/alex/.ivy2/cache/io.netty/netty/ivy-3.10.1.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.1.Final/netty-3.10.1.Final.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1131956" time="0" location="/home/alex/.ivy2/cache/io.netty/netty/srcs/netty-3.10.1.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.1.Final/netty-3.10.1.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.5" status="release" pubdate="20080831154538" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="26">
+				<metadata-artifact status="no" details="" size="2320" time="0" location="/home/alex/.ivy2/cache/javax.servlet/servlet-api/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="158114" time="0" location="/home/alex/.ivy2/cache/javax.servlet/servlet-api/srcs/servlet-api-2.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-logging_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045642" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3934" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-logging_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-logging_2.11/6.36.0/util-logging_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-logging_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31773" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-logging_2.11/srcs/util-logging_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-logging_2.11/6.36.0/util-logging_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-stats_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045610" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3909" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-stats_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-stats_2.11/6.36.0/util-stats_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-stats_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16792" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-stats_2.11/srcs/util-stats_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-stats_2.11/6.36.0/util-stats_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-lint_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045540" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="53">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3490" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-lint_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-lint_2.11/6.36.0/util-lint_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-lint_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2819" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-lint_2.11/srcs/util-lint_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-lint_2.11/6.36.0/util-lint_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-jvm_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045606" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="80">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3898" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-jvm_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-jvm_2.11/6.36.0/util-jvm_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-jvm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16712" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-jvm_2.11/srcs/util-jvm_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-jvm_2.11/6.36.0/util-jvm_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-hashing_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045615" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3747" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-hashing_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-hashing_2.11/6.36.0/util-hashing_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-hashing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6089" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-hashing_2.11/srcs/util-hashing_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-hashing_2.11/6.36.0/util-hashing_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-codec_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045632" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="96">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3638" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-codec_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-codec_2.11/6.36.0/util-codec_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-codec_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1508" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-codec_2.11/srcs/util-codec_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-codec_2.11/6.36.0/util-codec_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-cache_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045621" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="63">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4084" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-cache_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-cache_2.11/6.36.0/util-cache_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-cache_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8438" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-cache_2.11/srcs/util-cache_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-cache_2.11/6.36.0/util-cache_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ben-manes.caffeine" name="caffeine">
+			<revision name="2.3.0" status="release" pubdate="20160424004701" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ben-manes/caffeine" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4888" time="0" location="/home/alex/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/ben-manes/caffeine/caffeine/2.3.0/caffeine-2.3.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="caffeine" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="145464" time="0" location="/home/alex/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/srcs/caffeine-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/ben-manes/caffeine/caffeine/2.3.0/caffeine-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject" name="guice">
+			<revision name="4.0" status="release" pubdate="20150428233326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="65">
+				<metadata-artifact status="no" details="" size="5760" time="0" location="/home/alex/.ivy2/cache/com.google.inject/guice/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="305803" time="0" location="/home/alex/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070227014340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="81">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2291" time="0" location="/home/alex/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="/home/alex/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-app_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045609" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="72">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3922" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-app_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-app_2.11/6.36.0/util-app_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-app_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17142" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-app_2.11/srcs/util-app_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-app_2.11/6.36.0/util-app_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="16.0.1" status="release" pubdate="20140204024528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="100">
+				<metadata-artifact status="no" details="" size="5927" time="0" location="/home/alex/.ivy2/cache/com.google.guava/guava/ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1261127" time="0" location="/home/alex/.ivy2/cache/com.google.guava/guava/srcs/guava-16.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-registry_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3647" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-registry_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-registry_2.11/6.36.0/util-registry_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-registry_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4397" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-registry_2.11/srcs/util-registry_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-registry_2.11/6.36.0/util-registry_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045634" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="71">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4207" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-core_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-core_2.11/6.36.0/util-core_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="174358" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-core_2.11/srcs/util-core_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-core_2.11/6.36.0/util-core_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430170747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="22">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/home/alex/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/home/alex/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160309071602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="95">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/alex/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="562895" time="0" location="/home/alex/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-function_2.11">
+			<revision name="6.36.0" status="release" pubdate="20160826045546" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3502" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-function_2.11/ivy-6.36.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-function_2.11/6.36.0/util-function_2.11-6.36.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="6.36.0" rev-constraint-default="6.36.0" rev-constraint-dynamic="6.36.0" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-function_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2090" time="0" location="/home/alex/.ivy2/cache/com.twitter/util-function_2.11/srcs/util-function_2.11-6.36.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-function_2.11/6.36.0/util-function_2.11-6.36.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160309071604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, compile(*), runtime(*), master(compile), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/home/alex/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.thrift" name="libthrift">
+			<revision name="0.5.0-1" status="release" pubdate="20121003045710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="2635" time="0" location="/home/alex/.ivy2/cache/org.apache.thrift/libthrift/ivy-0.5.0-1.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/org/apache/thrift/libthrift/0.5.0-1/libthrift-0.5.0-1.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="0.5.0-1" rev-constraint-default="0.5.0-1" rev-constraint-dynamic="0.5.0-1" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="libthrift" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116576" time="0" location="/home/alex/.ivy2/cache/org.apache.thrift/libthrift/srcs/libthrift-0.5.0-1-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/org/apache/thrift/libthrift/0.5.0-1/libthrift-0.5.0-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.hazelcast" name="hazelcast-client">
+			<revision name="3.6.4" status="release" pubdate="20160701052403" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="10458" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast-client/ivy-3.6.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/hazelcast/hazelcast-client/3.6.4/hazelcast-client-3.6.4.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="3.6.4" rev-constraint-default="3.6.4" rev-constraint-dynamic="3.6.4" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hazelcast-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276872" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast-client/srcs/hazelcast-client-3.6.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/hazelcast/hazelcast-client/3.6.4/hazelcast-client-3.6.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.hazelcast" name="hazelcast">
+			<revision name="3.6.4" status="release" pubdate="20160701052400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, compile(*), runtime(*), master(compile), master" position="67">
+				<metadata-artifact status="no" details="" size="15620" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast/ivy-3.6.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/hazelcast/hazelcast/3.6.4/hazelcast-3.6.4.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="3.6.4" rev-constraint-default="3.6.4" rev-constraint-dynamic="3.6.4" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hazelcast" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4484347" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast/srcs/hazelcast-3.6.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/hazelcast/hazelcast/3.6.4/hazelcast-3.6.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.cache" name="cache-api">
+			<revision name="1.0.0" status="release" pubdate="20140328073400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jsr107/jsr107spec" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="64">
+				<license name="JSR-000107 JCACHE 2.9 Public Review - Updated Specification                 License             " url="https://raw.github.com/jsr107/jsr107spec/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4067" time="0" location="/home/alex/.ivy2/cache/javax.cache/cache-api/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/cache/cache-api/1.0.0/cache-api-1.0.0.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cache-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84172" time="0" location="/home/alex/.ivy2/cache/javax.cache/cache-api/srcs/cache-api-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/cache/cache-api/1.0.0/cache-api-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014033500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="93">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2380" time="0" location="/home/alex/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/alex/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.6.5" status="release" pubdate="20160119085844" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, compile(*), runtime, runtime(*), master(compile), master" position="0">
+				<metadata-artifact status="no" details="" size="6926" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="271958" time="0" location="/home/alex/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

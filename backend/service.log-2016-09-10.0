@@ -1,0 +1,86 @@
+2016-09-04 09:59:41,350 INF                  ExampleServerMain$        Process started
+2016-09-04 09:59:44,423 INF                  ExampleServerMain$        Resolving Finagle clients before warmup
+2016-09-04 09:59:44,428 INF                  ExampleServerMain$        Done resolving clients: [].
+2016-09-04 09:59:44,430 INF                  FinagleBuildRevision$     Resolved Finagle build revision: (rev=aa4f855a8bea18429c2ad99f6184bcd4d4645227)
+2016-09-04 09:59:44,558 DEB                  MessageBodyModule$        Configuring MessageBodyManager
+2016-09-04 09:59:44,592 INF                  ExampleServerMain$        Warming up.
+2016-09-04 09:59:44,703 INF                  HttpRouter                Adding routes
+GET     /ping
+GET     /auth
+2016-09-04 09:59:44,709 INF                  ExampleServerMain$         => com.twitter.server.handler.AdminRedirectHandler
+2016-09-04 09:59:44,709 INF                  ExampleServerMain$        /admin => com.twitter.server.handler.SummaryHandler
+2016-09-04 09:59:44,709 INF                  ExampleServerMain$        /admin/server_info => com.twitter.finagle.Filter$$anon$1
+2016-09-04 09:59:44,709 INF                  ExampleServerMain$        /admin/contention => com.twitter.finagle.Filter$$anon$1
+2016-09-04 09:59:44,709 INF                  ExampleServerMain$        /admin/lint => com.twitter.server.handler.LintHandler
+2016-09-04 09:59:44,709 INF                  ExampleServerMain$        /admin/lint.json => com.twitter.server.handler.LintHandler
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/threads => com.twitter.server.handler.ThreadsHandler
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/threads.json => com.twitter.server.handler.ThreadsHandler
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/announcer => com.twitter.finagle.Filter$$anon$1
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/dtab => com.twitter.finagle.Filter$$anon$1
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/pprof/heap => com.twitter.server.handler.HeapResourceHandler
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/pprof/profile => com.twitter.server.handler.ProfileResourceHandler
+2016-09-04 09:59:44,710 INF                  ExampleServerMain$        /admin/pprof/contention => com.twitter.server.handler.ProfileResourceHandler
+2016-09-04 09:59:44,711 INF                  ExampleServerMain$        /admin/ping => com.twitter.server.handler.ReplyHandler
+2016-09-04 09:59:44,711 INF                  ExampleServerMain$        /admin/shutdown => com.twitter.server.handler.ShutdownHandler
+2016-09-04 09:59:44,711 INF                  ExampleServerMain$        /admin/tracing => com.twitter.server.handler.TracingHandler
+2016-09-04 09:59:44,711 INF                  ExampleServerMain$        /admin/events => com.twitter.server.handler.EventsHandler
+2016-09-04 09:59:44,711 INF                  ExampleServerMain$        /admin/events/record/ => com.twitter.server.handler.EventRecordingHandler
+2016-09-04 09:59:44,711 INF                  ExampleServerMain$        /admin/logging => com.twitter.server.handler.LoggingHandler
+2016-09-04 09:59:44,712 INF                  ExampleServerMain$        /admin/metrics => com.twitter.server.handler.MetricQueryHandler
+2016-09-04 09:59:44,712 INF                  ExampleServerMain$        /admin/clients/ => com.twitter.server.handler.ClientRegistryHandler
+2016-09-04 09:59:44,712 INF                  ExampleServerMain$        /admin/servers/ => com.twitter.server.handler.ServerRegistryHandler
+2016-09-04 09:59:44,712 INF                  ExampleServerMain$        /admin/files/ => com.twitter.server.handler.ResourceHandler
+2016-09-04 09:59:44,712 INF                  ExampleServerMain$        /admin/registry.json => com.twitter.server.handler.RegistryHandler
+2016-09-04 09:59:44,712 INF                  ExampleServerMain$        /admin/toggles => com.twitter.server.handler.ToggleHandler
+2016-09-04 09:59:44,713 INF                  ExampleServerMain$        /admin/toggles/ => com.twitter.server.handler.ToggleHandler
+2016-09-04 09:59:44,713 INF                  ExampleServerMain$        /favicon.ico => com.twitter.server.handler.ResourceHandler
+2016-09-04 09:59:44,713 INF                  ExampleServerMain$        /admin/histograms => com.twitter.server.handler.HistogramQueryHandler
+2016-09-04 09:59:44,713 INF                  ExampleServerMain$        /admin/histograms.json => com.twitter.server.handler.HistogramQueryHandler
+2016-09-04 09:59:44,765 INF                  ExampleServerMain$        http server started on port: 8080
+2016-09-04 09:59:44,766 INF                  ExampleServerMain$        Enabling health endpoint on port 9990
+2016-09-04 09:59:44,768 INF                  ExampleServerMain$        core.ExampleServerMain started.
+2016-09-04 09:59:44,768 INF                  ExampleServerMain$        Startup complete, server ready.
+2016-09-10 20:47:11,662 INF                  GServerInstance$          Process started
+2016-09-10 20:48:22,191 INF                  GServerInstance$          Process started
+2016-09-10 20:48:25,944 INF                  GServerInstance$          Resolving Finagle clients before warmup
+2016-09-10 20:48:25,950 INF                  GServerInstance$          Done resolving clients: [].
+2016-09-10 20:48:25,952 INF                  FinagleBuildRevision$     Resolved Finagle build revision: (rev=aa4f855a8bea18429c2ad99f6184bcd4d4645227)
+2016-09-10 20:48:26,265 DEB                  MessageBodyModule$        Configuring MessageBodyManager
+2016-09-10 20:48:26,296 INF                  GServerInstance$          Warming up.
+2016-09-10 20:48:26,405 INF                  HttpRouter                Adding routes
+GET     /ping
+POST    /login
+2016-09-10 20:48:26,415 INF                  GServerInstance$           => com.twitter.server.handler.AdminRedirectHandler
+2016-09-10 20:48:26,415 INF                  GServerInstance$          /admin => com.twitter.server.handler.SummaryHandler
+2016-09-10 20:48:26,415 INF                  GServerInstance$          /admin/server_info => com.twitter.finagle.Filter$$anon$1
+2016-09-10 20:48:26,416 INF                  GServerInstance$          /admin/contention => com.twitter.finagle.Filter$$anon$1
+2016-09-10 20:48:26,416 INF                  GServerInstance$          /admin/lint => com.twitter.server.handler.LintHandler
+2016-09-10 20:48:26,416 INF                  GServerInstance$          /admin/lint.json => com.twitter.server.handler.LintHandler
+2016-09-10 20:48:26,416 INF                  GServerInstance$          /admin/threads => com.twitter.server.handler.ThreadsHandler
+2016-09-10 20:48:26,417 INF                  GServerInstance$          /admin/threads.json => com.twitter.server.handler.ThreadsHandler
+2016-09-10 20:48:26,417 INF                  GServerInstance$          /admin/announcer => com.twitter.finagle.Filter$$anon$1
+2016-09-10 20:48:26,417 INF                  GServerInstance$          /admin/dtab => com.twitter.finagle.Filter$$anon$1
+2016-09-10 20:48:26,417 INF                  GServerInstance$          /admin/pprof/heap => com.twitter.server.handler.HeapResourceHandler
+2016-09-10 20:48:26,417 INF                  GServerInstance$          /admin/pprof/profile => com.twitter.server.handler.ProfileResourceHandler
+2016-09-10 20:48:26,418 INF                  GServerInstance$          /admin/pprof/contention => com.twitter.server.handler.ProfileResourceHandler
+2016-09-10 20:48:26,418 INF                  GServerInstance$          /admin/ping => com.twitter.server.handler.ReplyHandler
+2016-09-10 20:48:26,418 INF                  GServerInstance$          /admin/shutdown => com.twitter.server.handler.ShutdownHandler
+2016-09-10 20:48:26,418 INF                  GServerInstance$          /admin/tracing => com.twitter.server.handler.TracingHandler
+2016-09-10 20:48:26,419 INF                  GServerInstance$          /admin/events => com.twitter.server.handler.EventsHandler
+2016-09-10 20:48:26,419 INF                  GServerInstance$          /admin/events/record/ => com.twitter.server.handler.EventRecordingHandler
+2016-09-10 20:48:26,419 INF                  GServerInstance$          /admin/logging => com.twitter.server.handler.LoggingHandler
+2016-09-10 20:48:26,419 INF                  GServerInstance$          /admin/metrics => com.twitter.server.handler.MetricQueryHandler
+2016-09-10 20:48:26,420 INF                  GServerInstance$          /admin/clients/ => com.twitter.server.handler.ClientRegistryHandler
+2016-09-10 20:48:26,420 INF                  GServerInstance$          /admin/servers/ => com.twitter.server.handler.ServerRegistryHandler
+2016-09-10 20:48:26,420 INF                  GServerInstance$          /admin/files/ => com.twitter.server.handler.ResourceHandler
+2016-09-10 20:48:26,420 INF                  GServerInstance$          /admin/registry.json => com.twitter.server.handler.RegistryHandler
+2016-09-10 20:48:26,421 INF                  GServerInstance$          /admin/toggles => com.twitter.server.handler.ToggleHandler
+2016-09-10 20:48:26,421 INF                  GServerInstance$          /admin/toggles/ => com.twitter.server.handler.ToggleHandler
+2016-09-10 20:48:26,421 INF                  GServerInstance$          /favicon.ico => com.twitter.server.handler.ResourceHandler
+2016-09-10 20:48:26,421 INF                  GServerInstance$          /admin/histograms => com.twitter.server.handler.HistogramQueryHandler
+2016-09-10 20:48:26,422 INF                  GServerInstance$          /admin/histograms.json => com.twitter.server.handler.HistogramQueryHandler
+2016-09-10 20:48:26,473 INF                  GServerInstance$          http server started on port: 8080
+2016-09-10 20:48:26,475 INF                  GServerInstance$          Enabling health endpoint on port 9990
+2016-09-10 20:48:26,477 INF                  GServerInstance$          core.GServerInstance started.
+2016-09-10 20:48:26,477 INF                  GServerInstance$          Startup complete, server ready.
+2016-09-10 21:00:17,962 DEB                  RoutingService            Request("POST /login/", from /127.0.0.1:49234) not found in registered routes: GET     /ping, POST    /login

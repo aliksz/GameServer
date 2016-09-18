@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: io.github.finagle:finagle-postgres_2.11:0.2.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/local/io.github.finagle/finagle-postgres_2.11/0.2.0/jars/finagle-postgres_2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/local/io.github.finagle/finagle-postgres_2.11/0.2.0/srcs/finagle-postgres_2.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.aliksz"
+		module="game-server_2.12"
+		revision="1.0.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160904100735"/>
+	<dependencies>
+		<module organisation="com.hazelcast" name="hazelcast-client">
+			<revision name="3.6.4" status="release" pubdate="20160701052403" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="10458" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast-client/ivy-3.6.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/hazelcast/hazelcast-client/3.6.4/hazelcast-client-3.6.4.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server_2.12" conf="optional, compile, provided, compile-internal" rev="3.6.4" rev-constraint-default="3.6.4" rev-constraint-dynamic="3.6.4" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hazelcast-client" type="jar" ext="jar" status="no" details="" size="527657" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast-client/jars/hazelcast-client-3.6.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/hazelcast/hazelcast-client/3.6.4/hazelcast-client-3.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.hazelcast" name="hazelcast">
+			<revision name="3.6.4" status="release" pubdate="20160701052400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, compile(*), runtime, runtime(*), master(compile), master" position="3">
+				<metadata-artifact status="no" details="" size="15620" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast/ivy-3.6.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/hazelcast/hazelcast/3.6.4/hazelcast-3.6.4.pom"/>
+				<caller organisation="com.hazelcast" name="hazelcast-client" conf="default, compile, runtime, master" rev="3.6.4" rev-constraint-default="3.6.4" rev-constraint-dynamic="3.6.4" callerrev="3.6.4"/>
+				<caller organisation="com.github.aliksz" name="game-server_2.12" conf="optional, compile, provided, compile-internal" rev="3.6.4" rev-constraint-default="3.6.4" rev-constraint-dynamic="3.6.4" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hazelcast" type="jar" ext="jar" status="no" details="" size="7283167" time="0" location="/home/alex/.ivy2/cache/com.hazelcast/hazelcast/jars/hazelcast-3.6.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/hazelcast/hazelcast/3.6.4/hazelcast-3.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.7" status="release" pubdate="20160330001826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="10072" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom"/>
+				<caller organisation="com.github.aliksz" name="game-server_2.12" conf="optional, compile, provided, compile-internal" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="304075" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.20" status="release" pubdate="20160329181222" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2775" time="391" location="/home/alex/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.20.xml" searched="true" original-local-location="/home/alex/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.20.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.20" rev-constraint-default="1.7.20" rev-constraint-dynamic="1.7.20" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="40744" time="529" location="/home/alex/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.20.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.7" status="release" pubdate="20160329235153" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="7796" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="470782" time="0" location="/home/alex/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.hazelcast" name="hazelcast-scala_2.12">
+			<revision name="3.6.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="com.github.aliksz" name="game-server_2.12" conf="optional, compile, provided, compile-internal" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-http_2.12">
+			<revision name="2.3.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="com.github.aliksz" name="game-server_2.12" conf="optional, compile, provided, compile-internal" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="com.github.aliksz" name="game-server_2.12" conf="optional, compile, provided, compile-internal" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
